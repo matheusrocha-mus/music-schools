@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #1b1b1b;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Montserrat", Arial;
+}
+
+button, li, a, .card, footer a > img { transition: 0.3s; }
+
+button:hover, li:hover, a:hover, .card:hover, footer a > img:hover {
+    transform: scale(1.1); color: #ffc107;
+}
+
+
+
+
+
+nav img {
+    width: 2vw; margin-right: 0.5vw;
+}
+
+.navbar-brand, .nav-item { margin-left: 2vw }
+
+h2 {
+    margin: 2vw;
+    padding-bottom: 0.5vw;
+    border-bottom: solid white 0.25vw;
+}
+
+.container-fluid, #location { padding: 0; }
+
+.wrapper, .google-maps { margin: 0 2vw; }
+
+.carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+nav, .card, .modal-content {
+    background-color: black;
+    color: white;
+}
+
+.card { margin: 1.5vw; }
+
+#author {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 25%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.social-media-icons {
+    width: 10%;
+    max-width: 3rem;
+    margin-left: 1rem;
+    border-radius: 25%;
+}
